@@ -1,6 +1,8 @@
+//------------- Encapsulation is mainly use for hiding data of variables ------------------
+
 class Test {
   
-  private int accountno;
+  private int accountno; // it is private because it cannot be use directly , if need to use this variable use setter & getter methods
   
   // setter method 
   public void setAccountno(int no){
