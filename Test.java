@@ -18,7 +18,7 @@ class Test {
      Test t = new Test();
   t.setAccountno(1234); // setting value by calling setter method 
     
-   System.out.println(t.getAccountno());
+   System.out.println(t.getAccountno());  // Getting value by getting Getter methods
   
   
     
